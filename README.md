@@ -6,9 +6,9 @@ CLKGEN is a Pmod™ compatible clock generator module that can generate any non-
 
 This repo contains schematics, pinouts and example RP2040 firmware.
 
-**Note: The example isn't currently functioning correctly; the output frequency is incorrect.**
-
 Find more information on the [CLKGEN product page](https://machdyne.com/product/clkgen-pmod/).
+
+Note: The C RP2040 driver doesn't currently output the correct frequency, but the micropython library does.
 
 ## Pinout
 
@@ -27,7 +27,8 @@ Find more information on the [CLKGEN product page](https://machdyne.com/product/
 | 11 | GND |
 | 12 | PWR3V3 |
 
-The contents of this repo are released under the [Lone Dynamics Open License](LICENSE.md) with the following exception:
+The contents of this repo are released under the [Lone Dynamics Open License](LICENSE.md) with the following exceptions:
 
-  * The si5351 driver files (examples/werkzeug/si5351.\*) are from [https://github.com/NT7S/Si5351](https://github.com/NT7S/Si5351) and were released under GNU General Public License V3.
+  * The C si5351 driver files (examples/werkzeug/si5351.\*) are from [https://github.com/NT7S/Si5351](https://github.com/NT7S/Si5351) and were released under GNU General Public License V3.
 
+ * The micropython si5351 library (examples/micropython/upython\_si5351) is from [https://github.com/mycr0ft/upython_si5351](https://github.com/mycr0ft/upython_si5351)
