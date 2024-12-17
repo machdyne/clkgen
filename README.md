@@ -2,6 +2,8 @@
 
 CLKGEN is a Pmod™ compatible clock generator module that can generate any non-integer frequency from 2.5kHz up to 200 MHz on each of its outputs with 0 ppm error.
 
+![clkgen](https://github.com/machdyne/clkgen/blob/96c59e83836f79bcb2de1203e58f8e84b684a5a7/clkgen.png)
+
 This repo contains schematics, pinouts and example RP2040 firmware.
 
 **Note: The example isn't currently functioning correctly; the output frequency is incorrect.**
