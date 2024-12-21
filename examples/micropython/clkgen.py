@@ -1,4 +1,4 @@
-from machine import Pin, I2C
+from machine import Pin, SoftI2C
 import SI5351
 
 PIN_SCL = 1
